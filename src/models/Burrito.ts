@@ -1,13 +1,7 @@
-class Burrito {
-  name: string;
-  size: string;
-  price: number;
-
-  constructor(name: string, size: string, price: number) {
-      this.name = name;
-      this.size = size;
-      this.price = price;
-  }
+export class Burrito {
+  constructor(
+      public name: string,
+      public size: string,
+      public price: number
+  ) {}
 }
-
-export default Burrito;
