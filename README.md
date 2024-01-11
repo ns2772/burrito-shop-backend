@@ -32,7 +32,7 @@ This will start the server on `http://localhost:5000`.
 
 ### Testing
 
-(TODO: Instructions for running any tests you've written for your backend.)
+#### `npm test`
 
 ## API Endpoints
 
